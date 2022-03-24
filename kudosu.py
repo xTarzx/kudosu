@@ -190,7 +190,7 @@ board, solution = SugokuAPI.get_board()
 wintext = bigger_font.render("woooo", True, COLORS.SOME_GREY)
 
 game = Kudosu(board, solution)
-win = True
+win = False
 run = True
 while run:
 
